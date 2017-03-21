@@ -1,29 +1,16 @@
 ---
 layout: post
-title: Git 사용법 + remote 저장소
+title: How to use Git + Repository
 image: http://haacked.com/images/icons/Shell.ico
 ---
 
-오늘 친구에게 Git 사용법을 전수받았다!
-면접 볼때도 물어보고 모든 소스들은 모두 깃에 올라와있다. 그래서 언젠간 배워야지 생각하고 있었지만, github 홈페이지에서 tutorial에서 웹 상으로 commit, pull 해보고 이렇게 쉽다니! 하고 넘어갔었다ㅋㅋㅋ(무식한넘...)
+Hello there, I'd like to talk about using Git.
 
-서론이 너무 길었다 오늘 익힌 내용을 정리해 보도록 하자.
+I'd say Git is a teamwork-support software that can track the history of revision of codes and upload and deletetion of files.
+I know the explanation of it is too vague so I'll show the example.
 
-언제 깔렸는지는 모르겠지만 바탕화면에 있던 git shell 이란 놈을 사용해서 깃에 대해 알아보았다.
-![first](img/git-tutorial1.PNG)
-요렇게 생겼다.
+Below is the picture of Github commit screen. Github is the web service for managing server-side of Git.
 
-수정된 코드를 내 repository에 업데이트 시키는데에는 다음과 같은 절차가 있다.
-> add -> commit -> remote -> push
+![git_example](img/git-example.PNG)
 
-먼저, 수정된 코드가 있는 디렉토리에 접근하면 이런 식의 텍스트가 보일 것이다.
-![second](img/git-tutorial2.PNG)
-* 첫번째 숫자 +11은 새로운 파일 11개가 추가되었다는 뜻이고,
-* 두번째 숫자 ~0은 코드가 수정된 파일의 갯수를 뜻하고,
-* 세번째 숫자 -7은 지워진 파일의 숫자를 뜻한다.
-
-이제 _*git status*_ 라는 명령어를 치면 어떤 파일이 변했는지 알 수 있다.
-
-그럼 그 파일을 추적해주자(나는 '가리킨다'라고 이해했다)
-![third](img/git-tutorial3.png)
-코드를 보면 먼저 
+So when I upload the file to Github with changed code, it will compare the difference between the previous code(red part) and new code(green part). Do you kind of get the idea?
