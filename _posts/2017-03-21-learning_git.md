@@ -25,10 +25,10 @@ Straight to the point, this is how I used Git.
 3. In that directory, start git
    * command is **_git init_**
 4. Create Readme.md file
-   * **_touch Readme.md_**
+   * **_git touch Readme.md_**
    * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
 5. Track Readme.md file
-   * **_add Readme.md_** or **_add * _** (asterick '*' means everything)
+   * **_git add Readme.md_** or **_git add * _** (asterick '*' means everything)
    * By doing so you are telling git to use or point at such file.
 6. Check what the git is pointing or about to do.
    * **_git status_**
@@ -45,3 +45,5 @@ Straight to the point, this is how I used Git.
     * **_git push -u [repository_name] [branch_name]_**
 
 These steps can be followed when you first made your repository.
+
+I was going to also upload about how to clone other repositories to mine, it took more time to write this post. I hope I get used to write in markdown style and document my practices...Thank you for reading :) 
