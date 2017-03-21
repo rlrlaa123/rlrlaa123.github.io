@@ -1,29 +1,49 @@
 ---
 layout: post
-title: Git 사용법 + remote 저장소
+title: Simple Git Tutorial
+subtitle: How to use Git + Repository
 image: http://haacked.com/images/icons/Shell.ico
 ---
 
-오늘 친구에게 Git 사용법을 전수받았다!
-면접 볼때도 물어보고 모든 소스들은 모두 깃에 올라와있다. 그래서 언젠간 배워야지 생각하고 있었지만, github 홈페이지에서 tutorial에서 웹 상으로 commit, pull 해보고 이렇게 쉽다니! 하고 넘어갔었다ㅋㅋㅋ(무식한넘...)
+###### Before you read my post, you should aware that my understanding of Git is very low if you need deeper knowledge or tutorial about using Git please go back to Google. I learned how to use Git from my friend for one day and writing this to kind of recall myself.
 
-서론이 너무 길었다 오늘 익힌 내용을 정리해 보도록 하자.
+Hello there, I'm going to share what I learned and practiced with Git.
+I'd say Git is a teamwork-support software that can track the history of revision of codes and upload and deletetion of files.
+I know the explanation of it is too vague so I'll show the example.
 
-언제 깔렸는지는 모르겠지만 바탕화면에 있던 git shell 이란 놈을 사용해서 깃에 대해 알아보았다.
-![first](img/git-tutorial1.PNG)
-요렇게 생겼다.
+Below is the picture of Github commit screen. Github is the web service for managing server-side of Git.
 
-수정된 코드를 내 repository에 업데이트 시키는데에는 다음과 같은 절차가 있다.
-> add -> commit -> remote -> push
+![git_example](/img/git-example.PNG)
 
-먼저, 수정된 코드가 있는 디렉토리에 접근하면 이런 식의 텍스트가 보일 것이다.
-![second](img/git-tutorial2.PNG)
-* 첫번째 숫자 +11은 새로운 파일 11개가 추가되었다는 뜻이고,
-* 두번째 숫자 ~0은 코드가 수정된 파일의 갯수를 뜻하고,
-* 세번째 숫자 -7은 지워진 파일의 숫자를 뜻한다.
+So when I upload the file to Github with changed code, it will compare the difference between the previous code(red part) and new code(green part). Do you kind of get the idea?
 
-이제 _*git status*_ 라는 명령어를 치면 어떤 파일이 변했는지 알 수 있다.
+Straight to the point, this is how I used Git.
+1. Make Respository on Github
+   * By doing this, you are creating your own space on Github's server.
+2. Create new directory that you want to share files with your Repository.
+   * On your computer
+3. In that directory, start git
+   * command is **_git init_**
+4. Create Readme.md file
+   * **_git touch Readme.md_**
+   * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
+5. Track Readme.md file
+   * **_git add Readme.md_** or **_git add * _** (asterick '*' means everything)
+   * By doing so you are telling git to use or point at such file.
+6. Check what the git is pointing or about to do.
+   * **_git status_**
+   * This command will show what kind of changes it will perform.
+7. Commit the change
+   * **_git commit -m "write_message"_**
+   * Commit means you are performing the change. Think of all the open-source projects on Github, whenver people make changes to the code, they are committing to the project. I think this is why Git calls it commit.
+8. Add remote repository
+   * **_git remote add [repository_name] [repository_address]_**
+   * You should tell the git where the repository you made on Github is and add the direction on your computer.
+9. Check your remote repository
+   * **_git remote_**
+10. Upload the committed changes to your repository
+    * **_git push -u [repository_name] [branch_name]_**
 
-그럼 그 파일을 추적해주자(나는 '가리킨다'라고 이해했다)
-![third](img/git-tutorial3.png)
-코드를 보면 먼저 
+These steps can be followed when you first made your repository.
+
+I was going to also upload about how to clone other repositories to mine, it took more time to write this post. I hope I get used to write in markdown style and document my practices...Thank you for reading :) 
