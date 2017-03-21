@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-### I'm starting to post everything I studied and learned about programming:  
+### I'm starting to post everything I study and learn about programming:  
 
 * Interested in:
   * _Django_
