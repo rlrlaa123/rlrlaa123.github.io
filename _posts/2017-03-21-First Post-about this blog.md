@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Dashboard
+title: First post
 subtitle: Everything about my programming
 ---
 
-I'm starting to post everything I studied and learned about programming:  
- - Since it's beginning, I won't classify anything but will separate it to look better when it increases
+###I'm starting to post everything I studied and learned about programming
+Definately need sometime to get used to writing posts, documenting in MarkDown and even Git. However, mostly with coding...
