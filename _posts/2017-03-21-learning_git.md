@@ -42,5 +42,6 @@ Straight to the point, this is how I used Git.
 9. Check your remote repository
    * **_git remote_**
 10. Upload the committed changes to your repository
-   * **_git push -u [repository_name] [branch_name]_**
+    * **_git push -u [repository_name] [branch_name]_**
+
 These steps can be followed when you first made your repository.
