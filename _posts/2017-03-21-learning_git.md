@@ -18,6 +18,8 @@ Below is the picture of Github commit screen. Github is the web service for mana
 So when I upload the file to Github with changed code, it will compare the difference between the previous code(red part) and new code(green part). Do you kind of get the idea?
 
 Straight to the point, this is how I used Git.
+### These steps can be followed when you first make your repository.
+
 1. Make Respository on Github
    * By doing this, you are creating your own space on Github's server.
 2. Create new directory that you want to share files with your Repository.
@@ -44,6 +46,15 @@ Straight to the point, this is how I used Git.
 10. Upload the committed changes to your repository
     * **_git push -u [repository_name] [branch_name]_**
 
-These steps can be followed when you first made your repository.
+### This is how I clone other repository to mine
+
+1. fork the repository
+2. click clone and download button
+3. copy url to request HTTP
+4. clone it to your local directory
+   * **_git clone_ [request url]**
+5. 
+
+
 
 I was going to also upload about how to clone other repositories to mine, it took more time to write this post. I hope I get used to write in markdown style and document my practices...Thank you for reading :) 
