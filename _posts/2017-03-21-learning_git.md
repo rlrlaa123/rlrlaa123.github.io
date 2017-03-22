@@ -53,8 +53,13 @@ Straight to the point, this is how I used Git.
 3. copy url to request HTTP
 4. clone it to your local directory
    * **_git clone_ [request url]**
-5. 
+5. Track everychange
+   * **_git add * _**
+   * check every changes on the directory
+6. commit
+7. push
 
+### When you change something on your Github repository
+Don't forget to do **_git push_** This command will update every changes from your repository to your directory.
 
-
-I was going to also upload about how to clone other repositories to mine, it took more time to write this post. I hope I get used to write in markdown style and document my practices...Thank you for reading :) 
+Thank you for reading!
