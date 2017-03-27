@@ -24,45 +24,44 @@ Straight to the point, this is how I used Git.
    * By doing this, you are creating your own space on Github's server.
 2. Create new directory that you want to share files with your Repository.
    * On your computer
-3. In that directory, start git
+3. In that directory, start git 
         ```
         git init
         ```
     * command is
-4. Create Readme.md file
+4. Create Readme.md file 
         ```
         git touch Readme.md
         ```
    * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
-5. Track Readme.md file
+5. Track Readme.md file 
         ```   
         git add Readme.md
          OR
         git add *
         ```
-        
    * (asterick '*' means everything)
    * By doing so you are telling git to use or point at such file.
-6. Check what the git is pointing or about to do.
+6. Check what the git is pointing or about to do. 
         ```   
         git status
         ```
    * This command will show what kind of changes it will perform.
-7. Commit the change
+7. Commit the change 
         ```
         git commit -m "write_message"
         ```
    * Commit means you are performing the change. Think of all the open-source projects on Github, whenver people make changes to the code, they are committing to the project. I think this is why Git calls it commit.
-8. Add remote repository
+8. Add remote repository 
         ``` 
         git remote add [repository_name] [repository_address]
         ```
    * You should tell the git where the repository you made on Github is and add the direction on your computer.
-9. Check your remote repository
+9. Check your remote repository 
         ```
         git remote
         ```
-10. Upload the committed changes to your repository
+10. Upload the committed changes to your repository 
         ```
         git push -u [repository_name] [branch_name]
         ```
@@ -71,11 +70,11 @@ Straight to the point, this is how I used Git.
 1. fork the repository
 2. click clone and download button
 3. copy url to request HTTP
-4. clone it to your local directory
+4. clone it to your local directory 
         ```
         git clone_ [request url]
         ```
-5. Track everychange
+5. Track everychange 
         ```
         git add *
         ```
