@@ -25,36 +25,57 @@ Straight to the point, this is how I used Git.
 2. Create new directory that you want to share files with your Repository.
    * On your computer
 3. In that directory, start git
-   * command is **_git init_**
+        ```
+        git init
+        ```
+    * command is
 4. Create Readme.md file
-   * **_git touch Readme.md_**
+        ```
+        git touch Readme.md
+        ```
    * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
 5. Track Readme.md file
-   * **_git add Readme.md_** or **_git add * _** (asterick '*' means everything)
+        ```   
+        git add Readme.md_** or **_git add *
+        ```
+   * (asterick '*' means everything)
    * By doing so you are telling git to use or point at such file.
 6. Check what the git is pointing or about to do.
-   * **_git status_**
+        ```   
+        git status
+        ```
    * This command will show what kind of changes it will perform.
 7. Commit the change
-   * **_git commit -m "write_message"_**
+        ```
+        git commit -m "write_message"
+        ```
    * Commit means you are performing the change. Think of all the open-source projects on Github, whenver people make changes to the code, they are committing to the project. I think this is why Git calls it commit.
 8. Add remote repository
-   * **_git remote add [repository_name] [repository_address]_**
+        ``` 
+        git remote add [repository_name] [repository_address]
+        ```
    * You should tell the git where the repository you made on Github is and add the direction on your computer.
 9. Check your remote repository
-   * **_git remote_**
+        ```
+        git remote
+        ```
 10. Upload the committed changes to your repository
-    * **_git push -u [repository_name] [branch_name]_**
-
+        ```
+        git push -u [repository_name] [branch_name]
+        ```
 ### This is how I clone other repository to mine
 
 1. fork the repository
 2. click clone and download button
 3. copy url to request HTTP
 4. clone it to your local directory
-   * **_git clone_ [request url]**
+        ```
+        git clone_ [request url]
+        ```
 5. Track everychange
-   * **_git add * _**
+        ```
+        git add *
+        ```
    * check every changes on the directory
 6. commit
 7. push
