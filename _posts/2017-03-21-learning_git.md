@@ -36,8 +36,11 @@ Straight to the point, this is how I used Git.
    * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
 5. Track Readme.md file
         ```   
-        git add Readme.md_** or **_git add *
+        git add Readme.md
+         OR
+        git add *
         ```
+        
    * (asterick '*' means everything)
    * By doing so you are telling git to use or point at such file.
 6. Check what the git is pointing or about to do.
