@@ -18,8 +18,8 @@ With this tutorial, you can build rest api and host it on AWS. From the api serv
 4. upload files on git
 5. get files from server and run
 
-![api example1](/img/api_tutorial1.PNG)
-![api example2](/img/api_tutorial2.jpg)
+![api example1](/img/api-tutorial1.PNG)
+![api example2](/img/api-tutorial2.jpg)
 This is the final screen of api in web and application. According to what kind of api I build I can save data on the server and get it from anywhere.
 
 I'll start to follow the sketchy process.
