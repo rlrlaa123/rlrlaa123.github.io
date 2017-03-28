@@ -51,13 +51,13 @@ When starting a new project, it is more convenient to create virtual environment
 > If you also want to use virtual environment on __Pycharm__ you should simply import the directory in __Pycharm__.
 
 Sync your database
-        ```python
-        python manage.py migrate
-        ```
-initialize user named admin with a password of password123. 
-        ```python
-        python manage.py createsuperuser
-        ```
+```python
+python manage.py migrate
+```
+Initialize user named admin with a password of password123. 
+```python
+python manage.py createsuperuser
+```
 Once you've set up a database and initial user created and ready to go.
 
 From now on, you can copy and paste the code on the django restframework website' __quickstart__.
@@ -65,3 +65,18 @@ From now on, you can copy and paste the code on the django restframework website
 #### Serializer
 Serializer is the setup point on where you choose which and how data will be showed on the api.
 #### Views
+This part is the framework of the database.
+#### URLs
+URL part will set url link navigation.
+#### Settings
+In the tutorial, it includes __'DEFAULT_PERMISSION_CLASSES'__ to be only accessible to admin users but for our api server, we will open it for any users. So erase that part.
+
+###### More detail tutorial analysis will be held on other upcoming posts...
+
+#### Testing our API
+Runserver on localhost
+```
+python manage.py runserver
+```
+We can now access to our API using command like __curl__ or can go directly through the browser.
+This will be only accessible on local.
