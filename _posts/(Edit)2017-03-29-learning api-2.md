@@ -35,3 +35,6 @@ Now you finished borrowing and creating instance on the AWS. Next, we'll learn h
 
 ### 3. Connect to Server with Poderosa
 AWS EC2 server is remote server probably located in USA so our computer need to find a way to work on that server. Usually many people use PuTTY or maybe Xshell, but there's same software with better design and UI, Poderosa.
+1. *File>New Telnet/SSH Connection*
+2. Fill New Connection
+   * Host : Public DNS
