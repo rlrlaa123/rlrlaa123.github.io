@@ -1,7 +1,7 @@
 ---
 title: Simple API tutorial(1)
 subtitle: Django-RestFramework, AWS-ec2, Poderosa, Git
-image: http://developer.quantcast.com/files/API_PAGE_CLOUD_-_crop.png
+image: http://www.commzgate.com/assets/img/commzgate_cloud_api.png
 ---
 
 ###### Today I learned how to create api server on hosted web on AWS EC2 instance, using Poderosa. She emphasized that linux environment is crucial for development. Also, from now on I should update every code on Git. 
