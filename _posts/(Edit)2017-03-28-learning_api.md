@@ -1,7 +1,7 @@
 ---
 title: Simple API tutorial
 subtitle: Django-RestFramework, AWS-ec2, Poderosa, Git
-image: https://strongloop.com/wp-content/uploads/2014/06/SL_Connect_APIServer.png
+image: http://developer.quantcast.com/files/API_PAGE_CLOUD_-_crop.png
 ---
 
 ###### Today I learned how to create api server on hosted web on AWS EC2 instance, using Poderosa. She emphasized that linux environment is crucial for development. Also, from now on I should update every code on Git.
@@ -18,8 +18,9 @@ With this tutorial, you can build rest api and host it on AWS. From the api serv
 4. upload files on git
 5. get files from server and run
 
-![api example1](/img/api_tutorial1.PNG)
-![api example2](/img/api_tutorial2.jpg)
+![api example1](/img/api-tutorial1.PNG|width=100,height=100)
+![api example2](/img/api-tutorial2.jpg|width=100,height=100)
+
 This is the final screen of api in web and application. According to what kind of api I build I can save data on the server and get it from anywhere.
 
 I'll start to follow the sketchy process.
