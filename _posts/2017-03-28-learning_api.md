@@ -19,8 +19,7 @@ However, the api that I'll make is just for test, not related to the project.
    * Get _**public key**_
    * Open _**port**_
 3. Connect to Server with Poderosa
-4. upload files on git
-5. get files from server and run
+4. Get api files from Git
 
 ![api example2](/img/api-tutorial2.jpg)
 
