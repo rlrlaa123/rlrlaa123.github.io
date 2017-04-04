@@ -12,8 +12,7 @@ image: http://www.commzgate.com/assets/img/commzgate_cloud_api.png
    * Get _**public key**_
    * Open _**port**_
 3. Connect to Server with Poderosa
-4. upload files on git
-5. get files from server and run
+4. Get api files from Git.
 
 ### 2. EC2 hosting
 Hosting means you are borrowing a certain space from another computer. Server is a computer that should be running 24 hours. People like me cannot run server all day so we borrow the some space from server computers. And Amazon is one of the biggest cloud hosting company in the world. 
@@ -37,4 +36,20 @@ Now you finished borrowing and creating instance on the AWS. Next, we'll learn h
 AWS EC2 server is remote server probably located in USA so our computer need to find a way to work on that server. Usually many people use PuTTY or maybe Xshell, but there's same software with better design and UI, Poderosa.
 1. *File>New Telnet/SSH Connection*
 2. Fill New Connection
-   * Host : Public DNS
+   * Host : Public DNS (from EC2)
+   * Protocol: SSH2
+   * Port: SSH(22)
+   * Account: ec2-user
+   * Authentication: Public Key
+   * Key File: this is where you put your key pair, _**.pem**_ file you saved.
+
+and this will do the job. You will see something like below picture. It means you are in your server you just hosted from AWS.
+![](img/api-tutorial.PNG)
+
+### 4. Get api files from Git.
+1. pull files from the server
+2. write __**python manage.py runserver o.o.o.o:8080**_
+    * It will run server on port 0.0.0.0:8080
+3. Check your api from browser 
+    * copy and paste the host name with :8080 port number and you will see the result like the one we saw at tutorial 1.
+![](img/api-tutorial.PNG)
