@@ -1,7 +1,7 @@
 ---
 title: Simple API tutorial(2)
 subtitle: Django-RestFramework, AWS-ec2, Poderosa, Git
-image: http://www.commzgate.com/assets/img/commzgate_cloud_api.png
+image: http://rigor.com/wp-content/uploads/2016/06/api-a397cc184c5622fb5130af1b7baf149d.png
 ---
 ###### Will start from __2. EC2 hosting__
 
