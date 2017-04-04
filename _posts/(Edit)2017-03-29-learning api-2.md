@@ -44,7 +44,7 @@ AWS EC2 server is remote server probably located in USA so our computer need to 
    * Key File: this is where you put your key pair, _**.pem**_ file you saved.
 
 and this will do the job. You will see something like below picture. It means you are in your server you just hosted from AWS.
-![](img/api-tutorial3.PNG)
+![poderosa result](img/api-tutorial3.PNG)
 
 ### 4. Get api files from Git.
 1. pull files from the server
@@ -52,4 +52,4 @@ and this will do the job. You will see something like below picture. It means yo
     * It will run server on port 0.0.0.0:8080
 3. Check your api from browser 
     * copy and paste the host name with :8080 port number and you will see the result like the one we saw at tutorial 1.
-![](img/api-tutorial1.PNG)
+![apiresult](img/api-tutorial1.PNG)
