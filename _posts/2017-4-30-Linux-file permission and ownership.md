@@ -1,7 +1,7 @@
 ---
 title: Linux - File Permission and Ownership
 subtitle: ls -ld,chmod,chown,mv,rm
-img: https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/linux.jpg
+image: https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/linux.jpg
 ---
 ###### I mistakenly deleted other person's file with rm command on AWS linux server. While I was trying to download extundelete program and utilize it, I suffered so much with permission problem. So I pick up this 'Linux Bible' book again and studied little bit about such problems. 
 ---
