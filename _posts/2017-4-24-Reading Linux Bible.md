@@ -1,7 +1,7 @@
 ---
 title: Reading Linux Bible
 subtitle: Creating Shell Environment
-image: http://image3.kangcom.com/2016/09/b_pic/201608262585.jpg
+image: https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/linux.jpg
 ---
 ###### Friend borrowed me a book 'Linux Bible'. Front part was so boring, discussing about history of linux. It was interesting and boring at the same time. Reason it was interesting is because it is the stories that people around me would be interested, but for me, it doesn't really interest me that much...(I wish it was!)
 ![book](http://image3.kangcom.com/2016/09/b_pic/201608262585.jpg)
