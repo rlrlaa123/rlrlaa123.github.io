@@ -75,7 +75,7 @@ share-links-active:
 disqus: "rlrlaa123-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-98274434-1"
 
 # Google Tag Manager ID
 #gtm: ""
