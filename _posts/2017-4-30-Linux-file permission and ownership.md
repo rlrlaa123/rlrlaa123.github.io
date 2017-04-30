@@ -10,6 +10,7 @@ __*-rwxrwxrwx*__
 1. First 3 bit displays owner's permission
 2. Next 3 bit displays group's permission
 3. Last 3 bit displays other user or group's permission.
+
 ### Looking at permission and ownership
 ```linux
 $ ls -ld Users dev
@@ -18,6 +19,7 @@ dr-xr-xr-x  3 root  wheel  5315  4 28 17:43 dev
 ```
 dr means it is a directory. On Users, owner is root and group is admin. Owner can read, write, execute, group can execute and read, other user can only execute this file.
 dev directory is similar while it cannot be written with owner.
+
 ###### This is how you read permission and ownership
 
 ### Chaning permission with *chmod*
@@ -41,6 +43,7 @@ In order to assign permission to whole directory, you will do this.
 $ chmod -R 755 $HOME/myapps
 Result is rwxr-xr-x for myapps directory and all the sub-directroy under it.
 ```
+
 ### Setting file permission with *umask*
 When normal user create a file or directory, basic permission is rw-rw-r--. For directory it is, rwxrwxr-x. For root user, permission for file and directory is rw-r--r-- and rwxr-xr-x. Setting this is umask. If you type you can check the current umask.
 ```linux
@@ -60,6 +63,7 @@ drwxr-xr-x. 2 joe joe 6 Dec 19 11:07 dir03
 -rw-r--r--. 1 joe joe 0 Dec 19 11:07 file03
 ```
 In order to change umask value permanately, you need to add umask command to home directory's .bashrc file.
+
 ### Changing file's onwnership with *chown*
 Normal user cannot change the ownership of file or directory. Only root user can change ownership.
 ```linux
@@ -82,6 +86,7 @@ This will change ownership of all the materials under them.
 * ls -l *directory name* will give all files and directroy's permission and ownership under chosen directory.
 * ls -ld will show the current directory's permission and ownership.
 * ls -ld *directroy name* will only give directroy's permission and ownerhip.
+
 ### File move, copy and delete
 ```linux
 $ mv abc def
