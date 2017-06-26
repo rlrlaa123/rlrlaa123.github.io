@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Begin Learning Node.js
-subtitle: node.js, settings, REPL, NPM, Callback Function, Event, HTTP Module, Express Framework
+subtitle: What is Node.js?
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png
 ---
 
