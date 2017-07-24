@@ -1,3 +1,9 @@
+---
+layout: page
+title: Javascript Definitive Guide Chapter 3: Data type and value
+subtitle: Everything about my programming
+---
+
 ## 3장 데이터 타입과 값
 #### 3.16 특수한 숫자 값
 * infinity: 무한대를 나타내는 특수한 값
