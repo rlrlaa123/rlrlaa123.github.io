@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Javascript Definitive Guide Chapter 3: Data type and value
