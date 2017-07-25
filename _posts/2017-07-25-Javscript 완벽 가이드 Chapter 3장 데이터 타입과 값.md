@@ -1,7 +1,7 @@
 ---
-title:Javascript Definitive Guide Chapter 3: Data type and value
-subtitle:Everything about my programming
-image:https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjyt7Wr7KLVAhVCoZQKHZibCiwQjRwIBw&url=http%3A%2F%2Fwww.aladin.co.kr%2Fshop%2Fwproduct.aspx%3FItemId%3D2146920&psig=AFQjCNED3TwOK8GNu1hhkruz-stJqF76Cg&ust=1501017567487045
+title: Javascript Definitive Guide Chapter 3: Data type and value
+subtitle: Everything about my programming
+image: https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjyt7Wr7KLVAhVCoZQKHZibCiwQjRwIBw&url=http%3A%2F%2Fwww.aladin.co.kr%2Fshop%2Fwproduct.aspx%3FItemId%3D2146920&psig=AFQjCNED3TwOK8GNu1hhkruz-stJqF76Cg&ust=1501017567487045
 ---
 
 ## 3장 데이터 타입과 값
