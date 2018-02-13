@@ -31,7 +31,7 @@ Straight to the point, this is how I used Git.
     * command is
 4. Create Readme.md file 
         ```
-        git touch Readme.md
+        touch Readme.md
         ```
    * you created Readme.md file on your computer but you should also upload it on your Repository so that you can share it with your team.
 5. Track Readme.md file 
